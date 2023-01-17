@@ -25,6 +25,11 @@ def generar_menu(opciones, opcion_salida):
 def menu_principal():
     opciones = {
         '1': ('Sumar', suma),
-        '2': ('Salir', salir)
+        '2': ('Restar', resta),
+        '3': ('Multiplicar', multiplicacion),
+        '4': ('Dividir', division),
+        '5': ('Raíz n', raiz),
+
+        '8': ('Salir', salir)
     }
-    generar_menu(opciones, '2')
+    generar_menu(opciones, '8')
