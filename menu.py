@@ -29,6 +29,7 @@ def menu_principal():
         '3': ('Multiplicar', multiplicacion),
         '4': ('Dividir', division),
         '5': ('Raíz n', raiz),
+        '6': ('Exponente n', exponente),
 
         '8': ('Salir', salir)
     }

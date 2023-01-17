@@ -25,11 +25,16 @@ def division():
     print(f'{primerNumero} / {segundoNumero} = {primerNumero / segundoNumero}')
 
 def raiz():
-    print('Elegiste la opción raiz n')
+    print('Elegiste la opción raíz n')
     indiceRaiz = int(input('Proporciona el índice de la raíz: '))
     radicandoRaiz = int(input('Proporciona el radicando: '))
     print(f'La raíz {indiceRaiz} del número {radicandoRaiz} es: {numpy.power(radicandoRaiz, (1/indiceRaiz))}')
 
+def exponente():
+    print('Elegiste la opción exponente n')
+    exponente = int(input('Proporciona el exponente: '))
+    numero = int(input('Proporciona el número: '))
+    print(f'{numero}^{exponente}= {numpy.power(numero, (exponente))}')
 
 
 
