@@ -1,4 +1,5 @@
-import numpy as numpy
+import numpy
+import math
 
 def suma():
     print('Elegiste la opción suma')
@@ -36,6 +37,10 @@ def exponente():
     numero = int(input('Proporciona el número: '))
     print(f'{numero}^{exponente}= {numpy.power(numero, (exponente))}')
 
+def seno():
+    print('Elegiste la opción seno')
+    angulo = int(input('Proporciona el ángulo: '))
+    print(f'El seno del ángulo es: {math.sin((angulo * math.pi)/180)}')
 
 
 
